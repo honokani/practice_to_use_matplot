@@ -46,9 +46,7 @@ def plotPoint(sx, sy, n):
                        , [-25,-25]
                        ]
 
-    if n==0 :
-        progressiveLines = []
-    elif n==1 :
+    if n==1 :
         groupNum = 3
         groupDence = 24
         groupSize = 0.02
